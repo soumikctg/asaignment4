@@ -8,7 +8,7 @@ function Covid() {
 
 function display(data) {
   console.log(data);
-    var content = document.getElementById("flex-container");
+    var content = document.getElementById("search-result");
     for (var i=0; i<data.length; i++){
         var newDiv = document.createElement('div');
         newDiv.innerHTML = `
